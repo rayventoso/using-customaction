@@ -7,5 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
      - name: 'Run custom Action'
-       uses: rayventoso/customaction@1
+       uses: rayventoso/customaction@master
    
