@@ -1,10 +1,11 @@
-name: running first custom action
+name: running-first-custom-action
+
 on: [push]
 
 jobs:
-  custom: 
+  custom-job: 
     runs-on: ubuntu-latest
     steps:
-      -name: run customaction
-      uses: rayventoso/customaction@v1
-  
+     - name: 'Run custom Action'
+       uses: rayventoso/customaction@1
+   
